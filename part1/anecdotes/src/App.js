@@ -33,6 +33,7 @@ const App = () => {
     console.log(points, selected);
   };
 
+  //use most voted items' index to get the anecdote
   const mostVote = () => {
     let max = 0;
     let maxIndex = 0;
